@@ -9,10 +9,25 @@
 /* Begin PBXBuildFile section */
 		123AC3603B044B81B556C4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740CDFF7FA944F66B1714894 /* Foundation.framework */; };
 		4BF6F18D544D4B43AB53CEC1 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */; };
-		4D5549351BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549331BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D5549361BCC0A75001E3D77 /* FISUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549341BCC0A75001E3D77 /* FISUserSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549371BCC0BBF001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D5549351BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549331BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m */; };
+		4D5549361BCC0A75001E3D77 /* FISUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549341BCC0A75001E3D77 /* FISUserSpec.m */; };
+		4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549371BCC0BBF001E3D77 /* Launch Screen.storyboard */; };
 		86B12BE4DC976B9D8136F1CD /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4F8F6C70C07E1998ABE051 /* libPods-unit_tests.a */; };
+		C91192101D1ECA5100CFCB2B /* FISUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C911920F1D1ECA5100CFCB2B /* FISUser.m */; };
+		C91192131D1ECA8B00CFCB2B /* FISFeedPost.m in Sources */ = {isa = PBXBuildFile; fileRef = C91192121D1ECA8B00CFCB2B /* FISFeedPost.m */; };
+		C91192161D1ECAC600CFCB2B /* FISTextPost.m in Sources */ = {isa = PBXBuildFile; fileRef = C91192151D1ECAC600CFCB2B /* FISTextPost.m */; };
+		C91192191D1ECAE200CFCB2B /* FISImagePost.m in Sources */ = {isa = PBXBuildFile; fileRef = C91192181D1ECAE200CFCB2B /* FISImagePost.m */; };
+		C911921C1D1EF36500CFCB2B /* bird1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C911921A1D1EF36500CFCB2B /* bird1.jpg */; };
+		C911921D1D1EF36500CFCB2B /* bird2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C911921B1D1EF36500CFCB2B /* bird2.jpg */; };
+		C91192201D1EF5D300CFCB2B /* FISNewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C911921F1D1EF5D300CFCB2B /* FISNewsFeedTableViewController.m */; };
+		C91192231D1EFA8500CFCB2B /* FISCoverImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C91192221D1EFA8500CFCB2B /* FISCoverImageTableViewCell.m */; };
+		C91192261D1EFA9100CFCB2B /* FISImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C91192251D1EFA9100CFCB2B /* FISImageTableViewCell.m */; };
+		C91192291D1EFA9F00CFCB2B /* FISTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C91192281D1EFA9F00CFCB2B /* FISTextTableViewCell.m */; };
+		C9E13B511D1DB41F00828F1B /* FISUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E13B501D1DB41F00828F1B /* FISUserTableViewController.m */; };
+		C9E13B571D1DB79A00828F1B /* landscape1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9E13B531D1DB79A00828F1B /* landscape1.jpeg */; };
+		C9E13B581D1DB79A00828F1B /* kermit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9E13B541D1DB79A00828F1B /* kermit.jpeg */; };
+		C9E13B591D1DB79A00828F1B /* annoyingdog.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E13B551D1DB79A00828F1B /* annoyingdog.png */; };
+		C9E13B5A1D1DB79A00828F1B /* landscape2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9E13B561D1DB79A00828F1B /* landscape2.jpeg */; };
 		D80D149D19F09B720018489E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D149C19F09B720018489E /* Main.storyboard */; };
 		D80D14B119F0AC500018489E /* joe-burgess.png in Resources */ = {isa = PBXBuildFile; fileRef = D80D14B019F0AC500018489E /* joe-burgess.png */; };
 		D80D14B319F0ACAE0018489E /* flying.png in Resources */ = {isa = PBXBuildFile; fileRef = D80D14B219F0ACAE0018489E /* flying.png */; };
@@ -47,6 +62,30 @@
 		BC7AF055F66F4AD4BAA48996 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		BF3743855881463492EBBA59 /* facepad-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "facepad-Prefix.pch"; sourceTree = "<group>"; };
 		BF65580E223247C2968DC75D /* facepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C911920E1D1ECA5100CFCB2B /* FISUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISUser.h; sourceTree = "<group>"; };
+		C911920F1D1ECA5100CFCB2B /* FISUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISUser.m; sourceTree = "<group>"; };
+		C91192111D1ECA8B00CFCB2B /* FISFeedPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISFeedPost.h; sourceTree = "<group>"; };
+		C91192121D1ECA8B00CFCB2B /* FISFeedPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFeedPost.m; sourceTree = "<group>"; };
+		C91192141D1ECAC600CFCB2B /* FISTextPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTextPost.h; sourceTree = "<group>"; };
+		C91192151D1ECAC600CFCB2B /* FISTextPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTextPost.m; sourceTree = "<group>"; };
+		C91192171D1ECAE200CFCB2B /* FISImagePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImagePost.h; sourceTree = "<group>"; };
+		C91192181D1ECAE200CFCB2B /* FISImagePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImagePost.m; sourceTree = "<group>"; };
+		C911921A1D1EF36500CFCB2B /* bird1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird1.jpg; sourceTree = "<group>"; };
+		C911921B1D1EF36500CFCB2B /* bird2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird2.jpg; sourceTree = "<group>"; };
+		C911921E1D1EF5D300CFCB2B /* FISNewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISNewsFeedTableViewController.h; sourceTree = "<group>"; };
+		C911921F1D1EF5D300CFCB2B /* FISNewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISNewsFeedTableViewController.m; sourceTree = "<group>"; };
+		C91192211D1EFA8500CFCB2B /* FISCoverImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCoverImageTableViewCell.h; sourceTree = "<group>"; };
+		C91192221D1EFA8500CFCB2B /* FISCoverImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCoverImageTableViewCell.m; sourceTree = "<group>"; };
+		C91192241D1EFA9100CFCB2B /* FISImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImageTableViewCell.h; sourceTree = "<group>"; };
+		C91192251D1EFA9100CFCB2B /* FISImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImageTableViewCell.m; sourceTree = "<group>"; };
+		C91192271D1EFA9F00CFCB2B /* FISTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTextTableViewCell.h; sourceTree = "<group>"; };
+		C91192281D1EFA9F00CFCB2B /* FISTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTextTableViewCell.m; sourceTree = "<group>"; };
+		C9E13B4F1D1DB41F00828F1B /* FISUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISUserTableViewController.h; sourceTree = "<group>"; };
+		C9E13B501D1DB41F00828F1B /* FISUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISUserTableViewController.m; sourceTree = "<group>"; };
+		C9E13B531D1DB79A00828F1B /* landscape1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape1.jpeg; sourceTree = "<group>"; };
+		C9E13B541D1DB79A00828F1B /* kermit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kermit.jpeg; sourceTree = "<group>"; };
+		C9E13B551D1DB79A00828F1B /* annoyingdog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annoyingdog.png; sourceTree = "<group>"; };
+		C9E13B561D1DB79A00828F1B /* landscape2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape2.jpeg; sourceTree = "<group>"; };
 		D80D149C19F09B720018489E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D80D14B019F0AC500018489E /* joe-burgess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joe-burgess.png"; sourceTree = "<group>"; };
 		D80D14B219F0ACAE0018489E /* flying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flying.png; sourceTree = "<group>"; };
@@ -119,10 +158,17 @@
 		495B53C458994BF3BB9CFD10 /* facepad */ = {
 			isa = PBXGroup;
 			children = (
+				C9E13B521D1DB78400828F1B /* Images */,
+				C9E13B421D1DAFC200828F1B /* Models */,
 				F5DA605375F54E3D9C8CC12A /* FISAppDelegate.h */,
 				1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */,
 				FF2E31828EF54A4794F04731 /* Resources */,
 				D80D149C19F09B720018489E /* Main.storyboard */,
+				C9E13B4F1D1DB41F00828F1B /* FISUserTableViewController.h */,
+				C9E13B501D1DB41F00828F1B /* FISUserTableViewController.m */,
+				C911921E1D1EF5D300CFCB2B /* FISNewsFeedTableViewController.h */,
+				C911921F1D1EF5D300CFCB2B /* FISNewsFeedTableViewController.m */,
+				C911922A1D1EFAA800CFCB2B /* Cells */,
 			);
 			path = facepad;
 			sourceTree = "<group>";
@@ -161,6 +207,47 @@
 				4D5549341BCC0A75001E3D77 /* FISUserSpec.m */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		C911922A1D1EFAA800CFCB2B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C91192211D1EFA8500CFCB2B /* FISCoverImageTableViewCell.h */,
+				C91192221D1EFA8500CFCB2B /* FISCoverImageTableViewCell.m */,
+				C91192241D1EFA9100CFCB2B /* FISImageTableViewCell.h */,
+				C91192251D1EFA9100CFCB2B /* FISImageTableViewCell.m */,
+				C91192271D1EFA9F00CFCB2B /* FISTextTableViewCell.h */,
+				C91192281D1EFA9F00CFCB2B /* FISTextTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C9E13B421D1DAFC200828F1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C91192171D1ECAE200CFCB2B /* FISImagePost.h */,
+				C91192181D1ECAE200CFCB2B /* FISImagePost.m */,
+				C91192141D1ECAC600CFCB2B /* FISTextPost.h */,
+				C91192151D1ECAC600CFCB2B /* FISTextPost.m */,
+				C91192111D1ECA8B00CFCB2B /* FISFeedPost.h */,
+				C91192121D1ECA8B00CFCB2B /* FISFeedPost.m */,
+				C911920E1D1ECA5100CFCB2B /* FISUser.h */,
+				C911920F1D1ECA5100CFCB2B /* FISUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C9E13B521D1DB78400828F1B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C911921A1D1EF36500CFCB2B /* bird1.jpg */,
+				C911921B1D1EF36500CFCB2B /* bird2.jpg */,
+				C9E13B531D1DB79A00828F1B /* landscape1.jpeg */,
+				C9E13B541D1DB79A00828F1B /* kermit.jpeg */,
+				C9E13B551D1DB79A00828F1B /* annoyingdog.png */,
+				C9E13B561D1DB79A00828F1B /* landscape2.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		F20E66BAB416480A926C7DEB /* UnitTests */ = {
@@ -266,12 +353,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E13B5A1D1DB79A00828F1B /* landscape2.jpeg in Resources */,
+				C9E13B571D1DB79A00828F1B /* landscape1.jpeg in Resources */,
 				4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */,
 				F3A9137FBC40455D8A840D98 /* Images.xcassets in Resources */,
+				C9E13B581D1DB79A00828F1B /* kermit.jpeg in Resources */,
 				D80D149D19F09B720018489E /* Main.storyboard in Resources */,
+				C911921C1D1EF36500CFCB2B /* bird1.jpg in Resources */,
 				D80D14B819F151830018489E /* coverimage.png in Resources */,
 				D80D14B319F0ACAE0018489E /* flying.png in Resources */,
+				C9E13B591D1DB79A00828F1B /* annoyingdog.png in Resources */,
 				D80D14B119F0AC500018489E /* joe-burgess.png in Resources */,
+				C911921D1D1EF36500CFCB2B /* bird2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +431,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91192291D1EFA9F00CFCB2B /* FISTextTableViewCell.m in Sources */,
+				C91192131D1ECA8B00CFCB2B /* FISFeedPost.m in Sources */,
+				C9E13B511D1DB41F00828F1B /* FISUserTableViewController.m in Sources */,
+				C91192261D1EFA9100CFCB2B /* FISImageTableViewCell.m in Sources */,
+				C91192201D1EF5D300CFCB2B /* FISNewsFeedTableViewController.m in Sources */,
+				C91192191D1ECAE200CFCB2B /* FISImagePost.m in Sources */,
+				C91192101D1ECA5100CFCB2B /* FISUser.m in Sources */,
+				C91192161D1ECAC600CFCB2B /* FISTextPost.m in Sources */,
 				4BF6F18D544D4B43AB53CEC1 /* FISAppDelegate.m in Sources */,
 				F2DA577D1EC348D78215A834 /* main.m in Sources */,
+				C91192231D1EFA8500CFCB2B /* FISCoverImageTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
